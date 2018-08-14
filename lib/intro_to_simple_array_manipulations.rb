@@ -39,13 +39,7 @@ def using_flatten(arr)
 end
 
 def using_delete(arr,str)
-  count=0
-  arr.each do |ele|
-    if arr[count]==str
-      arr.delete[count]
-      count = count + 1
-    end
-  end
+  arr.delete(str)
 end
 
 def using_delete_at(arr,index)
