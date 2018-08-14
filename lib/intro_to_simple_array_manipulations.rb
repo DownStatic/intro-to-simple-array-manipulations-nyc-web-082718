@@ -41,7 +41,7 @@ end
 def using_delete(arr,str)
   count=0
   arr.each do |ele|
-    if ele == str
+    if arr[count]==str
       arr.delete[count]
       count = count + 1
     end
